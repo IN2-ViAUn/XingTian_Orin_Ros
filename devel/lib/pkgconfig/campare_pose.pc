@@ -1,0 +1,8 @@
+prefix=/home/xingtian/catkin_kin/devel
+
+Name: campare_pose
+Description: Description of campare_pose
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

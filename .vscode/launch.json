@@ -1,0 +1,59 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "orbslam",
+            "type": "cppdbg",
+            "cwd" : "${workspaceFolder}",
+            "request": "launch",
+            "program": "/home/xingtian/catkin_kin/devel/lib/orb_slam3_ros/ros_mono",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "cwd" : "${workspaceFolder}",
+            "request": "launch",
+            "program": "/home/xingtian/catkin_kin/devel/lib/recieve_azure/rgb_image_recv",
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "ROS: Attach",
+            "type": "ros",
+            "request": "attach"
+        },
+        {
+            "name": "ROS: Launch",
+            "request": "launch",
+            "target": "/home/xingtian/catkin_kin/src/recieve_azure/launch/test.launch",
+            "type": "ros"
+        }
+    ]
+}

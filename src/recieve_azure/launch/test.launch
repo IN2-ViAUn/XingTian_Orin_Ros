@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="recieve_azure" type="rgb_image_recv" name="rgb_image_recv" output="screen" />
+</launch>
+

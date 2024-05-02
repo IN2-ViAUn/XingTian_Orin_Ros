@@ -1,0 +1,8 @@
+prefix=/home/xingtian/catkin_kin/devel
+
+Name: recieve_azure
+Description: Description of recieve_azure
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

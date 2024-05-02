@@ -1,0 +1,2 @@
+Azure_Kinect_ROS_Driver:campare_pose:cv_bridge:orb_slam3_ros:recieve_azure:robot_pose_ekf
+-DCATKIN_DEVEL_PREFIX=/home/xingtian/catkin_kin/devel -DCMAKE_INSTALL_PREFIX=/home/xingtian/catkin_kin/install -G Unix Makefiles
